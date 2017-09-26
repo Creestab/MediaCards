@@ -1,0 +1,47 @@
+img {
+  width: 100%;
+}
+
+p {
+  text-align: center;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 1080px;
+    height: 870px;
+    background-color: grey;
+}
+
+.flex-item {
+    background-color: lightgrey;
+    width: 250px;
+    height: 270px;
+    margin: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    min-height: 270px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.avatar {
+  max-height: 150px;
+  max-width: 230px;
+  display: block;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
