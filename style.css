@@ -6,35 +6,42 @@ p {
   text-align: center;
 }
 
+a {
+  align-items: center;
+}
+
 .flex-container {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 1080px;
-    height: 870px;
+    height: 1190px;
     background-color: grey;
 }
 
 .flex-item {
     background-color: lightgrey;
     width: 250px;
-    height: 270px;
+    height: 350px;
     margin: 10px;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    min-height: 270px;
+    min-height: 350px;
 }
-
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .container {
     padding: 2px 16px;
+}
+
+.icons {
+  float: left;
 }
 
 .avatar {
@@ -44,4 +51,16 @@ p {
   padding-top: 10px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
 }
